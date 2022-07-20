@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
               child:
               Align(
                 alignment: Alignment.topLeft,
-                child: Text("Smart Buttom", style: TextStyle(
+                child: Text("Smart Button", style: TextStyle(
                     fontSize: 30,
                     color: Color.fromARGB(255, 84, 145, 158)
                 ),
@@ -192,7 +192,7 @@ class HomePage extends StatelessWidget {
               child:
               Align(
                 alignment: Alignment.topLeft,
-                child: Text("Emergency Buttom", style: TextStyle(
+                child: Text("Emergency Button", style: TextStyle(
                     fontSize: 30,
                     color: Color.fromARGB(255, 84, 145, 158)
                 ),

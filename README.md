@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 # Smart Nurse
-=======
-# smartnurse
->>>>>>> 9dae0bf (update readme)
 
 Smart Nurse Application to improve the Nursery Operation by Digitalization
-
-UI is developed by @FadilaCendikia 
-<<<<<<< HEAD
-
-BackEnd is developed by @elistrisnawati
 
 To access to back-end:
 
@@ -62,7 +53,3 @@ curl 'https://app.pie.co.id/rest/composite/query'
   -H 'x-session: SESSION' 
   --data-raw '{"secretKey":"SECRET","filterMap":{"ACTIVE":true}}'
 ````
-=======
-BackEnd is developed by @elistrisnawati
-
->>>>>>> 9dae0bf (update readme)

@@ -55,7 +55,16 @@ class _notificationPageState extends State<notificationPage> {
             },
             child: Center(
                 child:
-                Text('AJUKAN PERMINTAAN', style: TextStyle(fontSize: 19, color:  Colors.black),)),
+                Container(
+                  height: 150,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 209, 227, 231),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    padding: EdgeInsets.only(left: 40, right: 40),
+                    child: Center(
+                        child: Text('AJUKAN PERMINTAAN', style: TextStyle(fontSize: 19, color:  Colors.black),)))),
           ) ,
         ),
       ),
